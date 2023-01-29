@@ -1,0 +1,10 @@
+h1,h2{
+    text-decoration: underline;
+    color: rgb(233, 10, 203);
+}
+table, tr, td{
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border: 2px solid rgb(233, 10, 203);
+}

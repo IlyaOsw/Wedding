@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 243, 251);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(245, 50, 219);
+}
+
+.guests{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
