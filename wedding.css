@@ -1,17 +1,22 @@
 body{
-    background-color: rgb(255, 243, 251);
+    margin: auto;
+    background-color: rgb(253, 228, 245);
+    max-width: 1500px;
 }
 
 h1{
     text-align: center;
-    text-decoration: underline;
     font-size: 50px;
-    font-style: italic;
-    color: rgb(245, 50, 219);
+    color: rgb(247, 20, 39);
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
 }
-
-.guests{
+.guests, .invites, .place, .firework, .cake{
+    margin: auto;
+    max-width: 1300px;
     text-align: center;
     font-style: italic;
     font-size: 20px;
+    border-bottom: 2px dotted black;
+    
 }
