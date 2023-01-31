@@ -13,10 +13,14 @@ h1{
 }
 .guests, .invites, .place, .firework, .cake{
     margin: auto;
-    max-width: 1300px;
+    max-width: 1000px;
     text-align: center;
     font-style: italic;
     font-size: 20px;
     border-bottom: 2px dotted black;
     
+}
+
+a:visited {
+    color: blue;
 }
