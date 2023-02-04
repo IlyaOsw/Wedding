@@ -14,7 +14,7 @@ h1{
     padding-bottom: 30px;
 }
 
-.guests, .invites, .place, .firework, .cake, .drinks{
+.guests, .invites, .place, .firework, .cake, .drinks, .photo{
     color: rgb(99, 88, 88);
     margin: auto;
     max-width: 1000px;
