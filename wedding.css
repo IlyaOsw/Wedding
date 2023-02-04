@@ -1,4 +1,6 @@
 body{
+    font-family: Unbounded;
+    font-size: 18px;
     margin: auto;
     background-color: rgb(253, 228, 245);
     max-width: 1500px;
@@ -11,13 +13,13 @@ h1{
     border-bottom: 3px solid black;
     padding-bottom: 30px;
 }
-.guests, .invites, .place, .firework, .cake{
+
+.guests, .invites, .place, .firework, .cake, .drinks{
+    color: rgb(99, 88, 88);
     margin: auto;
     max-width: 1000px;
     text-align: center;
-    font-style: italic;
-    font-size: 20px;
-    border-bottom: 2px dotted black;
+    border-bottom: 3px dotted black;
     
 }
 

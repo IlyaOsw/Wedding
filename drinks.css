@@ -2,21 +2,23 @@ body{
     font-family: Unbounded;
     font-size: 16px;
     background-color: rgb(253, 228, 245);
-    
+    letter-spacing: 1px;
 }
+
 h2{
     text-align: center;
     text-decoration: underline;
     color: rgb(247, 20, 39);
 }
-table, tr, td{
-    margin: auto;
-    height: 30px;
-    width: 300px;
-    border: 2px solid rgb(247, 20, 39);
-}
 
-td:not(:last-child){
-    width: 40px;
-    text-align: center;
+p{
+    text-decoration: underline;
+    font-size: 20px;
+    padding-left: 10px;
+}
+div{
+    margin: auto;
+    width: 300px;
+    border: 4px double rgb(247, 20, 39);
+    margin-bottom: 10px;
 }
