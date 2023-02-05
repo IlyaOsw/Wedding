@@ -1,11 +1,10 @@
 body {
     padding-top: 25px;
     font-family: Unbounded;
-    font-size: 17px;
+    font-size: 16px;
     margin: auto;
     background-color: rgb(253, 228, 245);
     max-width: 1500px;
-    height: 1300px;
 }
 
 h1 {
@@ -14,9 +13,7 @@ h1 {
     color: rgb(247, 20, 39);
     border-bottom: 3px solid black;
     padding-bottom: 30px;
-    margin-bottom: 40px;
     transition: 1s;
-    position: relative;
 }
 
 h1:hover {
@@ -28,18 +25,20 @@ h1:hover {
     margin: auto;
     max-width: 1100px;
     text-align: center;
-    border-bottom: 3px dotted black;
-    transition: 1s; 
-    text-shadow: 1px 1px 2px rgb(255, 188, 252); 
+    border-bottom: 2px dashed black;
+    transition: 1s ease-in-out; 
+    transition-delay: 50ms;
+    text-shadow: 1px 1px 2px rgb(253, 196, 250);
 }
 
 div:hover{
-    transform: scale(1.05);
-    border: 0.5px solid rgb(99, 88, 88);
-    box-shadow: 0px 0px 50px 0.1px rgb(255, 115, 255);
-    border-radius: 20%;
-    margin-top: 20px;
-    background-color: rgb(255, 199, 250);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px 15px rgb(255, 167, 255);
+    background-color: rgb(255, 208, 253);
+}
+
+div:last-of-type{
+    border: none;
 }
 
 a:visited {
@@ -51,7 +50,7 @@ footer {
     font-size: 23px;
     color: rgb(247, 20, 39);
     border-top: 3px solid black;
-    margin-top: 95px;
+    margin-top: 50px;
     padding-top: 30px;
     text-decoration: underline;
     transition: 1s;

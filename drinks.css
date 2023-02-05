@@ -28,7 +28,8 @@ div {
     width: 300px;
     border: 4px double rgb(247, 20, 39);
     margin-bottom: 10px;
-    transition: 1s;
+    transition: 0.5s ease-in-out;
+    transition-delay: 50ms;
 }
 
 div:hover {
