@@ -1,24 +1,41 @@
-body{
+body {
     font-family: Unbounded;
     font-size: 16px;
     background-color: rgb(253, 228, 245);
     letter-spacing: 1px;
 }
 
-h2{
+h2 {
     text-align: center;
     text-decoration: underline;
     color: rgb(247, 20, 39);
+    margin-top: 50px;
+    transition: 1s;
 }
 
-p{
+h2:hover {
+    transform: scale(1.1);
+}
+
+p {
     text-decoration: underline;
     font-size: 20px;
     padding-left: 10px;
 }
-div{
+
+div {
     margin: auto;
     width: 300px;
     border: 4px double rgb(247, 20, 39);
     margin-bottom: 10px;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: #f0e6ff;
+    transform: scale(1.09);
+}
+
+div:last-of-type {
+    margin-bottom: 200px;
 }

@@ -1,28 +1,63 @@
-body{
+body {
+    padding-top: 25px;
     font-family: Unbounded;
-    font-size: 18px;
+    font-size: 17px;
     margin: auto;
     background-color: rgb(253, 228, 245);
     max-width: 1500px;
+    height: 1300px;
 }
 
-h1{
+h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(247, 20, 39);
     border-bottom: 3px solid black;
     padding-bottom: 30px;
+    margin-bottom: 40px;
+    transition: 1s;
+    position: relative;
 }
 
-.guests, .invites, .place, .firework, .cake, .drinks, .photo{
+h1:hover {
+    transform: scale(1.2);
+}
+
+.guests, .invites, .place, .firework, .cake, .drinks, .photo {
     color: rgb(99, 88, 88);
     margin: auto;
-    max-width: 1000px;
+    max-width: 1100px;
     text-align: center;
     border-bottom: 3px dotted black;
-    
+    transition: 1s; 
+    text-shadow: 1px 1px 2px rgb(255, 188, 252); 
+}
+
+div:hover{
+    transform: scale(1.05);
+    border: 0.5px solid rgb(99, 88, 88);
+    box-shadow: 0px 0px 50px 0.1px rgb(255, 115, 255);
+    border-radius: 20%;
+    margin-top: 20px;
+    background-color: rgb(255, 199, 250);
 }
 
 a:visited {
     color: blue;
+}
+
+footer {
+    text-align: center;
+    font-size: 23px;
+    color: rgb(247, 20, 39);
+    border-top: 3px solid black;
+    margin-top: 95px;
+    padding-top: 30px;
+    text-decoration: underline;
+    transition: 1s;
+    padding-bottom: 50px;
+}
+
+footer:hover {
+    transform: scale(1.2);
 }
