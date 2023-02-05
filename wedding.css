@@ -20,7 +20,14 @@ h1:hover {
     transform: scale(1.2);
 }
 
-.guests, .invites, .place, .firework, .cake, .drinks, .photo {
+.guests,
+.invites,
+.place,
+.firework,
+.cake,
+.drinks,
+.photo,
+.price {
     color: rgb(99, 88, 88);
     margin: auto;
     max-width: 1100px;
@@ -60,6 +67,7 @@ footer {
 footer:hover {
     transform: scale(1.2);
 }
+
 @media (max-width: 479px) {
     h1 {
         font-size: 35px;

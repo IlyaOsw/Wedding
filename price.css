@@ -1,0 +1,45 @@
+body {
+    padding-top: 25px;
+    font-family: Unbounded;
+    font-size: 16px;
+    margin: auto;
+    background-color: rgb(253, 228, 245);
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(247, 20, 39);
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    transition: 1s;
+}
+h2:hover {
+    transform: scale(1.1);
+}
+
+table, tr, td {
+    margin: auto;
+    height: 30px;
+    width: 350px;
+    border: 1px solid rgb(247, 20, 39);
+    transition: 0.5s ease-in-out;
+    transition-delay: 50ms;
+}
+
+td {
+    padding-left: 10px;
+}
+
+tr,td {
+    padding-top: 10px;
+}
+tr:hover {
+    transform: scale(1.03);
+    background-color: #ffcdf3;
+}
+
+tr:last-of-type {
+    font-size: 20px;
+}
