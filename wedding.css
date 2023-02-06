@@ -23,6 +23,7 @@ h1:hover {
 .guests,
 .invites,
 .place,
+.place2,
 .firework,
 .cake,
 .drinks,
@@ -44,10 +45,6 @@ div:hover{
     background-color: rgb(255, 216, 253);
 }
 
-div:last-of-type{
-    border: none;
-}
-
 a:visited {
     color: blue;
 }
@@ -57,7 +54,7 @@ footer {
     font-size: 23px;
     color: rgb(247, 20, 39);
     border-top: 3px solid black;
-    margin-top: 50px;
+    margin-top: 80px;
     padding-top: 30px;
     text-decoration: underline;
     transition: 1s;
