@@ -5,7 +5,7 @@ body {
     margin: 20px auto;
     max-width: 1500px;
     background-image: url(1.jpg);
-    opacity: 0.8;
+    opacity: 0.85;
     background-position: 0 0px;
     background-repeat: no-repeat;
     background-size: 100% 100%; 
@@ -106,28 +106,21 @@ footer:hover {
         padding: 0px 20px 0px 20px;
     }
 
-}
-
-@media (max-width: 479px) {
     footer {
         font-size: 18px;
         padding: 0px 20px 0px 20px;
     }
 
-}
-
-@media (max-width: 479px) {
     div {
         font-size: 14px;
         padding: 0px 30px 0px 30px;
     }
 
-}
-
-
-@media (max-width: 479px) {
     body {
         background-size: 300% 100%; 
     }
 
+    .head {
+        height: 180px;
+    }
 }
