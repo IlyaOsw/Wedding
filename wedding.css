@@ -24,10 +24,11 @@ h1 {
 
 .head {
     background-color: rgb(255, 224, 255);
-    max-width: 430px;
+    max-width: 440px;
     margin: 0 auto;
     border-radius: 10%;
-    height: 220px;
+    height: 230px;
+    padding-top: 15px;
 }
 
 .line {
