@@ -1,15 +1,24 @@
 body {
     font-family: Unbounded;
     font-size: 16px;
-    background-color: rgb(253, 228, 245);
+    background-image: url(2.jpg);
+    opacity: 0.8;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 h2 {
     text-align: center;
     text-decoration: underline;
-    color: rgb(247, 20, 39);
+    color: rgb(255, 3, 24);
     transition: 0.5s;
     margin-top: 50px;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
 }
 
 h2:hover {
@@ -17,13 +26,13 @@ h2:hover {
 }
 
 table, tr, td {
+    color: rgb(68, 68, 68);
     margin: auto;
     height: 30px;
     width: 300px;
-    border: 1px solid rgb(247, 20, 39);
-    transition: 0.5s ease-in-out;
+    border: 1px solid rgb(255, 1, 22);
+    transition: 0.3s ease-in-out;
     transition-delay: 50ms;
-
 }
 
 tr, td {
@@ -46,4 +55,11 @@ tr:hover {
 
 table:not(:first-of-type) {
     margin-bottom: 60px;
+}
+
+@media (max-width: 479px) {
+    body {
+        background-size: 300% 200%; 
+    }
+
 }

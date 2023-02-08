@@ -1,16 +1,24 @@
 body {
     font-family: Unbounded;
     font-size: 16px;
-    background-color: rgb(253, 228, 245);
+    background-image: url(2.jpg);
+    opacity: 0.8;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
     letter-spacing: 1px;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 h2 {
     text-align: center;
     text-decoration: underline;
-    color: rgb(247, 20, 39);
+    color: rgb(255, 3, 24);
     margin-top: 50px;
     transition: 1s;
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
 }
 
 h2:hover {
@@ -24,12 +32,14 @@ p {
 }
 
 div {
+    color: rgb(68, 68, 68);
     margin: auto;
     width: 300px;
     border: 4px double rgb(247, 20, 39);
     margin-bottom: 10px;
     transition: 0.5s ease-in-out;
     transition-delay: 50ms;
+    font-weight: 600;
 }
 
 div:hover {
@@ -39,4 +49,11 @@ div:hover {
 
 div:last-of-type {
     margin-bottom: 60px;
+}
+
+@media (max-width: 479px) {
+    body {
+        background-size: 400% 150%; 
+    }
+
 }

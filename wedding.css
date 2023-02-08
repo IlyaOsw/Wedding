@@ -2,22 +2,48 @@ body {
     padding-top: 25px;
     font-family: Unbounded;
     font-size: 16px;
-    margin: auto;
-    background-color: rgb(253, 228, 245);
+    margin: 20px auto;
     max-width: 1500px;
+    background-image: url(1.jpg);
+    opacity: 0.8;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
 }
 
 h1 {
     text-align: center;
-    font-size: 40px;
-    color: rgb(247, 20, 39);
-    border-bottom: 3px solid black;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
     padding-bottom: 30px;
     transition: 1s;
+    letter-spacing: 5px;
+    margin-bottom: 80px;
+    font-weight: 900;
+}
+
+.head {
+    background-color: rgb(255, 224, 255);
+    max-width: 430px;
+    margin: 0 auto;
+    border-radius: 10%;
+    height: 220px;
+}
+
+.line {
+    border-bottom: 3px solid black;
+    margin: 50px 0px 90px 0px;
 }
 
 h1:hover {
     transform: scale(1.2);
+}
+
+span{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 2px dashed black;
 }
 
 .guests,
@@ -29,7 +55,7 @@ h1:hover {
 .drinks,
 .photo,
 .price {
-    color: rgb(99, 88, 88);
+    color: rgb(172, 3, 130);
     margin: auto;
     max-width: 1100px;
     text-align: center;
@@ -37,12 +63,13 @@ h1:hover {
     transition: 1s ease-in-out; 
     transition-delay: 50ms;
     text-shadow: 1px 1px 2px rgb(253, 196, 250);
+    letter-spacing: 1px;
 }
 
 div:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 50px 15px rgb(255, 189, 255);
-    background-color: rgb(255, 216, 253);
+    box-shadow: 0px 0px 50px 15px rgb(250, 134, 250);
+    background-color: rgb(255, 224, 255);
 }
 
 a:visited {
@@ -52,17 +79,25 @@ a:visited {
 footer {
     text-align: center;
     font-size: 23px;
-    color: rgb(247, 20, 39);
+    color: rgb(255, 0, 0);
     border-top: 3px solid black;
     margin-top: 80px;
     padding-top: 30px;
     text-decoration: underline;
     transition: 1s;
     padding-bottom: 50px;
+    letter-spacing: 5px;
 }
 
 footer:hover {
     transform: scale(1.2);
+}
+
+.container {
+    background-color: rgb(255, 224, 255);
+    max-width: 1150px;
+    margin: 0 auto;
+    border-radius: 10%;
 }
 
 @media (max-width: 479px) {
@@ -85,6 +120,14 @@ footer:hover {
     div {
         font-size: 14px;
         padding: 0px 30px 0px 30px;
+    }
+
+}
+
+
+@media (max-width: 479px) {
+    body {
+        background-size: 300% 100%; 
     }
 
 }
