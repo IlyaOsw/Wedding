@@ -22,8 +22,16 @@ h1 {
     font-weight: 900;
 }
 
+h1:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 50px 15px rgb(255, 0, 255);
+    background-color: rgb(255, 214, 255);
+    border-radius: 20%;
+}
+
 .head {
-    background-color: rgb(255, 224, 255);
+    /* background-color: rgb(255, 224, 255); */
+    background-image: url(2.jpg);
     max-width: 440px;
     margin: 0 auto;
     border-radius: 10%;
@@ -34,10 +42,6 @@ h1 {
 .line {
     border-bottom: 3px solid black;
     margin: 50px 0px 90px 0px;
-}
-
-h1:hover {
-    transform: scale(1.2);
 }
 
 span{
@@ -56,7 +60,7 @@ span{
 .drinks,
 .photo,
 .price {
-    color: rgb(172, 3, 130);
+    color: rgb(59, 0, 45);
     margin: auto;
     max-width: 1100px;
     text-align: center;
@@ -64,10 +68,10 @@ span{
     transition: 1s ease-in-out; 
     transition-delay: 50ms;
     text-shadow: 1px 1px 2px rgb(253, 196, 250);
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
-div:hover{
+.choice:hover{
     transform: scale(1.1);
     box-shadow: 0px 0px 50px 15px rgb(250, 134, 250);
     background-color: rgb(255, 214, 255);
@@ -77,7 +81,7 @@ a:visited {
     color: blue;
 }
 
-footer {
+.footer {
     text-align: center;
     font-size: 23px;
     color: rgb(255, 0, 0);
@@ -90,15 +94,59 @@ footer {
     letter-spacing: 5px;
 }
 
-footer:hover {
+.footer:hover {
     transform: scale(1.2);
 }
 
 .container {
-    background-color: rgb(255, 224, 255);
+    background-image: url(2.jpg);
+    background-size: 100% 100%;
     max-width: 1150px;
     margin: 0 auto;
     border-radius: 10%;
+}
+
+.card {
+    background-color: rgb(255, 226, 255);
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.contacts {
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li>a {
+    margin-left: 15px;
+}
+
+li>img {
+    margin-bottom: -5px;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+
+.card {
+    color: rgb(255, 0, 0);
+}
+
+.male {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 @media (max-width: 479px) {
@@ -107,7 +155,7 @@ footer:hover {
         padding: 0px 20px 0px 20px;
     }
 
-    footer {
+    .ftr {
         font-size: 18px;
         padding: 0px 20px 0px 20px;
     }
@@ -123,5 +171,9 @@ footer:hover {
 
     .head {
         height: 180px;
+    }
+
+    .container {
+        border-radius: 0;
     }
 }
