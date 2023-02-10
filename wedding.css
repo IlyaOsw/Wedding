@@ -174,4 +174,8 @@ li>img {
     .container {
         border-radius: 0;
     }
+
+    li>img{
+      margin-left: -24px;
+    }
 }
