@@ -197,6 +197,7 @@ li>img {
         font-size: 18px;
         padding: 0px 20px 0px 20px;
         letter-spacing: 5px;
+        border-radius: 0px;
     }
 
     .head:hover{
