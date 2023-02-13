@@ -9,6 +9,7 @@ h2 {
     max-width: 700px;
     margin: 35px auto;
 }
+
 h2:hover {
     transform: scale(1.1);
 }

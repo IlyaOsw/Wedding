@@ -42,6 +42,7 @@ td {
 tr,td {
     padding-top: 10px;
 }
+
 tr:hover {
     transform: scale(1.03);
     background-color: rgb(226, 226, 226);
