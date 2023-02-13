@@ -1,14 +1,16 @@
 body {
     font-family: Unbounded;
     margin: 50px auto;
-    max-width: 1500px;
-    background-image: url(./8.jpg);
+    max-width: 1750px;
+    background-image: url(./backgorund.jpg);
     opacity: 0.85;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 /*---------------------------------------------------*/
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -16,26 +18,35 @@ h1 {
     padding-bottom: 30px;
     transition: 1s;
     letter-spacing: 5px;
-    margin-bottom: 80px;
     font-weight: 900;
     max-width: 440px;
     margin: 0 auto;
-    border-radius: 10%;
     height: 230px;
     padding-top: 15px;
     cursor: default;
+    background-image: url(./headerbg.jpg);
+    background-size: cover;
+    max-width: 1150px;
+    border: 1px solid rgb(134, 133, 133);
+    border-radius: 20px;
 }
 
 h1:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 20px rgb(168, 168, 168);
 }
+
 /*---------------------------------------------------*/
+
 .line {
     display: block;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(82, 82, 82);
     margin: 50px 0px 90px 0px;
+    width: 1750px;
 }
+
 /*---------------------------------------------------*/
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -60,7 +71,7 @@ h1:hover {
     transition: 0.4s ease-in-out; 
     transition-delay: 50ms;
     letter-spacing: 1px;
-    background-image: url(2.jpg);
+    background-image: url(./cardbg.jpg);
     width: 29%;
     height: 250px;
     border-radius: 10%;
@@ -68,7 +79,9 @@ h1:hover {
     margin: 20px;
     padding: 0px 3px;
 }
+
 .style{
+    cursor: default;
     color: rgb(66, 66, 66);
     text-align: center;
     font-size: 16px;
@@ -76,7 +89,7 @@ h1:hover {
     transition: 0.4s ease-in-out; 
     transition-delay: 50ms;
     letter-spacing: 1px;
-    background-image: url(2.jpg);
+    background-image: url(./cardbg.jpg);
     width: 100%;
     height: 250px;
     border-radius: 50px;
@@ -87,7 +100,7 @@ h1:hover {
 
 .choice:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 50px 15px rgb(180, 180, 180);
+    box-shadow: 0px 0px 30px 20px rgb(168, 168, 168);
 }
 
 a {
@@ -96,72 +109,69 @@ a {
 }
 
 /*---------------------------------------------------*/
+
 .footer {
+    cursor: default;
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     color: rgb(255, 0, 128);
-    border-top: 2px solid black;
-    margin-top: 80px;
+    margin: 0 auto;
     padding-top: 30px;
-    text-decoration: underline;
     transition: 1s;
     padding-bottom: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    background-image: url(./footerbg.jpg);
+    background-size: cover;
+    max-width: 1150px;
+    border: 1px solid rgb(134, 133, 133);
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 35px;
+    letter-spacing: 4px;
 }
 
 .footer:hover {
-    transform: scale(1.2);
-}
-/*---------------------------------------------------*/
-.footer,
-.card {
-    
-}
-
-.card {
-    background-image: url(3.jpg);
-    background-size: cover;
-    border: 1px solid rgb(156, 156, 156);
-    border-radius: 30px;
-    margin: 20px auto;
-    max-width: 1150px;
-    max-height: 500px;
-    margin-bottom: 50px;
-    padding: 15px;
-    color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 20px rgb(168, 168, 168);
 }
 
 .contacts {
     text-align: center;
     font-size: 22px;
+    color: rgb(66, 66, 66);
     text-decoration: underline;
-}
-
-li {
-    list-style: none;
-    margin-top: 20px;
-}
-
-li>a {
-    margin-left: 15px;
-}
-
-li>img {
-    margin-bottom: -5px;
-}
-
-.list {
-    display: flex;
-    justify-content: space-around;
-    margin-left: -50px;
 }
 
 .male {
     text-align: center;
     text-decoration: underline;
     font-size: 20px;
+    color: rgb(66, 66, 66);
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+li>a {
+    margin-left: 10px;
+}
+
+li>img {
+    vertical-align: -3px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
 }
 /*---------------------------------------------------*/
+
 @media (max-width: 479px) {
     h1 {
         font-size: 35px;
@@ -177,7 +187,7 @@ li>img {
         padding-right: 30px;
     }
 
-    .ftr {
+    .footer {
         font-size: 18px;
         padding: 0px 20px 0px 20px;
     }
