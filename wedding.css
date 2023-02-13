@@ -183,7 +183,8 @@ li>img {
     }
     body {
         background-size: cover;
-        background-position: top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 
     .head:hover{
