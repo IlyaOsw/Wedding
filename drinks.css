@@ -1,4 +1,4 @@
-h2 {
+.alko_non {
     text-align: center;
     text-decoration: underline;
     margin-top: 50px;
@@ -6,9 +6,12 @@ h2 {
     padding-bottom: 30px;
     cursor: default;
     color: rgb(66, 66, 66);
+    font-size: 28px;
+    padding-bottom: 30px;
+    transition: 1s;
 }
 
-h2:hover {
+.alko_non:hover {
     transform: scale(1.1);
 }
 
@@ -18,7 +21,7 @@ h2:hover {
     cursor: default;
     margin: 0 auto;
     max-width: 1000px;
-    background-image: url(./backgrounds/headerbg.jpg);
+    background-image: url(./backgrounds/mainbg.jpg);
     background-size: cover;
     border: 1px solid rgb(134, 133, 133);
     border-radius: 50px;
@@ -36,6 +39,7 @@ p {
     margin: auto;
     width: 300px;
     border: 1px solid rgb(134, 133, 133);
+    border-radius: 15px;
     margin-bottom: 10px;
     transition: 0.5s ease-in-out;
     transition-delay: 50ms;

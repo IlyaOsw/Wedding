@@ -1,4 +1,4 @@
-h2 {
+.check {
     text-align: center;
     font-size: 40px;
     color: rgb(66, 66, 66);
@@ -7,7 +7,7 @@ h2 {
     transition: 1s;
 }
 
-h2:hover {
+.check:hover {
     transform: scale(1.1);
 }
 
@@ -17,7 +17,7 @@ h2:hover {
     margin: 0 auto;
     padding: 50px 0px 100px 0px;
     max-width: 1000px;
-    background-image: url(./backgrounds/headerbg.jpg);
+    background-image: url(./backgrounds/mainbg.jpg);
     background-size: cover;
     border: 1px solid rgb(134, 133, 133);
     border-radius: 50px;
@@ -32,7 +32,6 @@ table, tr, td {
     width: 400px;
     border: 1px solid rgb(31, 31, 31);
     transition: 0.3s ease-in-out;
-    transition-delay: 50ms;
 }
 
 td {
@@ -58,5 +57,4 @@ tr:last-of-type {
 
 @media (max-width: 479px) {
     
-
 }
