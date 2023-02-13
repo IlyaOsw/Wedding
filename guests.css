@@ -19,7 +19,7 @@ h2:hover {
     margin: 0 auto;
     padding: 0px 0px 50px 0px;
     max-width: 1000px;
-    background-image: url(./headerbg.jpg);
+    background-image: url(./backgrounds/headerbg.jpg);
     background-size: cover;
     border: 1px solid rgb(134, 133, 133);
     border-radius: 50px;
@@ -30,7 +30,7 @@ table, tr, td {
     color: rgb(66, 66, 66);
     font-weight: 600;
     height: 30px;
-    max-width: 300px;
+    width: 300px;
     border: 1px solid rgb(31, 31, 31);
     transition: 0.3s ease-in-out;
     transition-delay: 50ms;
