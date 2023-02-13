@@ -173,12 +173,18 @@ li>img {
 /*---------------------------------------------------*/
 
 @media (max-width: 479px) {
+    body {
+        overflow-x: hidden;
+    }
+
     h1 {
         font-size: 35px;
         padding: 0px 20px 0px 20px;
-        height: 180px;
+        height: 230px;
         border-radius: 0px;
+        letter-spacing: 5px;
     }
+
     h2 {
         position: absolute;
         top: 35%;
@@ -191,11 +197,6 @@ li>img {
         font-size: 18px;
         padding: 0px 20px 0px 20px;
     }
-    body {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
 
     .head:hover{
         border-radius: 0px;
@@ -206,8 +207,9 @@ li>img {
     }
 
     li>img{
-      margin-left: -24px;
+        margin-left: -24px;
     }
+
     .guests{
         margin-top: -30px;
         margin-left: 30px;
@@ -216,6 +218,7 @@ li>img {
         position: relative;
         font-size: 15px;
     }
+
     .invites,
     .place,
     .place2,
@@ -226,15 +229,14 @@ li>img {
     .price {
         margin-left: 30px;
         margin-right: 30px;
-        /* margin-top: 40px; */
         width: 100vw;
         position: relative;
         font-size: 14px;
     }
+    
     .style{
         margin-left: 30px;
         margin-right: 30px;
-        /* margin-top: 40px; */
         width: 100%;
         position: relative;
         font-size: 14px;

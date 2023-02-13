@@ -12,6 +12,8 @@ h2:hover {
     transform: scale(1.1);
 }
 
+/*---------------------------------------------------*/
+
 .main {
     cursor: default;
     margin: 0 auto;
@@ -48,6 +50,8 @@ p {
 .drink:last-of-type {
     margin-bottom: 50px;
 }
+
+/*---------------------------------------------------*/
 
 @media (max-width: 479px) {
     

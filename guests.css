@@ -6,7 +6,7 @@ h2 {
     cursor: default;
     color: rgb(66, 66, 66);
     border-bottom: 1px solid rgb(134, 133, 133);
-    width: 500px;
+    width: 700px;
     margin: 35px auto;
 }
 h2:hover {
@@ -63,7 +63,7 @@ tr:hover {
 
 @media (max-width: 479px) {
     body {
-        background-size: 300% 200%; 
+        
     }
 
 }
