@@ -179,8 +179,8 @@ li>img {
 
     h1 {
         font-size: 35px;
-        padding: 0px 20px 0px 20px;
-        height: 230px;
+        padding: 10px 20px 0px 20px;
+        height: 220px;
         border-radius: 0px;
         letter-spacing: 5px;
     }
@@ -196,6 +196,7 @@ li>img {
     .footer {
         font-size: 18px;
         padding: 0px 20px 0px 20px;
+        letter-spacing: 5px;
     }
 
     .head:hover{
