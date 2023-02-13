@@ -1,62 +1,46 @@
-/*---------------------------------------------------*/
 body {
-    padding-top: 25px;
     font-family: Unbounded;
-    font-size: 16px;
-    margin: 20px auto;
+    margin: 50px auto;
     max-width: 1500px;
-    background-image: url(1.jpg);
+    background-image: url(./8.jpg);
     opacity: 0.85;
-    background-position: 0 0px;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 /*---------------------------------------------------*/
 h1 {
     text-align: center;
     font-size: 50px;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 128);
     padding-bottom: 30px;
     transition: 1s;
     letter-spacing: 5px;
     margin-bottom: 80px;
     font-weight: 900;
-}
-
-h1:hover {
-    transform: scale(1.2);
-    box-shadow: 0px 0px 50px 15px rgb(255, 0, 255);
-    background-color: rgb(255, 214, 255);
-    border-radius: 20%;
-}
-
-.head {
-    /* background-color: rgb(255, 224, 255); */
-    background-image: url(2.jpg);
     max-width: 440px;
     margin: 0 auto;
     border-radius: 10%;
     height: 230px;
     padding-top: 15px;
+    cursor: default;
+}
+
+h1:hover {
+    transform: scale(1.2);
 }
 /*---------------------------------------------------*/
 .line {
-    border-bottom: 3px solid black;
+    display: block;
+    border-bottom: 2px solid black;
     margin: 50px 0px 90px 0px;
 }
 /*---------------------------------------------------*/
 .container {
     display: flex;
     flex-wrap: wrap;
-    background-size: 100% 100%;
     max-width: 1150px;
     margin: 0 auto;
-    border-radius: 10%;
-}
-
-span{
-    display: block;
-    text-align: center;
 }
 
 .guests,
@@ -68,38 +52,55 @@ span{
 .drinks,
 .photo,
 .price {
-    color: rgb(59, 0, 45);
-    max-width: 1100px;
+    cursor: default;
+    color: rgb(66, 66, 66);
     text-align: center;
+    font-size: 16px;
     border: 1px solid rgb(134, 133, 133);
-    transition: 1s ease-in-out; 
+    transition: 0.4s ease-in-out; 
     transition-delay: 50ms;
-    text-shadow: 1px 1px 2px rgb(253, 196, 250);
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     background-image: url(2.jpg);
     width: 29%;
     height: 250px;
-    
-    border-radius: 10px;
+    border-radius: 10%;
     justify-content: space-around;
     margin: 20px;
+    padding: 0px 3px;
+}
+.style{
+    color: rgb(66, 66, 66);
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(134, 133, 133);
+    transition: 0.4s ease-in-out; 
+    transition-delay: 50ms;
+    letter-spacing: 1px;
+    background-image: url(2.jpg);
+    width: 100%;
+    height: 250px;
+    border-radius: 50px;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 0px 3px;
 }
 
 .choice:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 50px 15px rgb(250, 134, 250);
-    background-color: rgb(255, 214, 255);
+    box-shadow: 0px 0px 50px 15px rgb(180, 180, 180);
 }
 
-a:visited {
-    color: blue;
+a {
+    text-decoration: none;
+    color: rgb(255, 0, 128);
 }
+
 /*---------------------------------------------------*/
 .footer {
     text-align: center;
     font-size: 23px;
-    color: rgb(255, 0, 0);
-    border-top: 3px solid black;
+    color: rgb(255, 0, 128);
+    border-top: 2px solid black;
     margin-top: 80px;
     padding-top: 30px;
     text-decoration: underline;
@@ -112,10 +113,18 @@ a:visited {
     transform: scale(1.2);
 }
 /*---------------------------------------------------*/
+.footer,
 .card {
-    background-color: rgb(255, 226, 255);
-    margin: 0 auto;
-    max-width: 500px;
+    
+}
+
+.card {
+    background-image: url(3.jpg);
+    background-size: cover;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 30px;
+    margin: 20px auto;
+    max-width: 1150px;
     max-height: 500px;
     margin-bottom: 50px;
     padding: 15px;
@@ -156,7 +165,10 @@ li>img {
 @media (max-width: 479px) {
     h1 {
         font-size: 35px;
-        padding: 0px 20px 0px 20px;    }
+        padding: 0px 20px 0px 20px;
+        height: 180px;
+        border-radius: 0px;
+    }
     h2 {
         position: absolute;
         top: 35%;
@@ -174,10 +186,6 @@ li>img {
         background-position: top;
     }
 
-    .head {
-        height: 180px;
-        border-radius: 0px;
-    }
     .head:hover{
         border-radius: 0px;
     }
@@ -207,11 +215,18 @@ li>img {
     .price {
         margin-left: 30px;
         margin-right: 30px;
-        margin-top: 40px;
+        /* margin-top: 40px; */
         width: 100vw;
         position: relative;
         font-size: 14px;
     }
-    
+    .style{
+        margin-left: 30px;
+        margin-right: 30px;
+        /* margin-top: 40px; */
+        width: 100%;
+        position: relative;
+        font-size: 14px;
+    }
 }
 
