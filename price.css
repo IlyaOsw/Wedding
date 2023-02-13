@@ -1,37 +1,36 @@
-body {
-    padding-top: 25px;
-    font-family: Unbounded;
-    font-size: 16px;
-    margin: auto;
-    max-width: 500px;
-    background-image: url(2.jpg);
-    opacity: 0.8;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: 100% 220%; 
-}
-
 h2 {
     text-align: center;
     font-size: 40px;
-    color: rgb(255, 3, 24);
-    border-bottom: 3px solid black;
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
     padding-bottom: 30px;
     transition: 1s;
 }
+
 h2:hover {
     transform: scale(1.1);
 }
 
+.main {
+    margin: 0 auto;
+    padding: 50px 0px 100px 0px;
+    max-width: 1000px;
+    background-image: url(./headerbg.jpg);
+    background-size: cover;
+    border: 1px solid rgb(134, 133, 133);
+    border-radius: 50px;
+    cursor: default;
+}
+
 table, tr, td {
-    margin: auto;
-    height: 30px;
-    width: 350px;
-    border: 1px solid rgb(247, 20, 39);
-    transition: 0.5s ease-in-out;
-    transition-delay: 50ms;
-    color: rgb(68, 68, 68);
+    margin: 0 auto;
+    color: rgb(66, 66, 66);
     font-weight: 600;
+    height: 30px;
+    width: 400px;
+    border: 1px solid rgb(31, 31, 31);
+    transition: 0.3s ease-in-out;
+    transition-delay: 50ms;
 }
 
 td {
@@ -43,17 +42,16 @@ tr,td {
 }
 tr:hover {
     transform: scale(1.03);
-    background-color: #ffcdf3;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0px 0px 10px 5px rgb(180, 180, 180);
 }
 
 tr:last-of-type {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 800;
 }
 
 @media (max-width: 479px) {
-    body {
-        background-size: 400% 200%;
-        margin-bottom: 60px;
-    }
+    
 
 }
