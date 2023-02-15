@@ -77,7 +77,6 @@ h1:hover {
     font-size: 16px;
     border: 1px solid rgb(134, 133, 133);
     transition: 0.4s ease-in-out; 
-    transition-delay: 50ms;
     letter-spacing: 1px;
     background-image: url(./backgrounds/cardbg.jpg);
     background-size: cover;
@@ -96,7 +95,6 @@ h1:hover {
     font-size: 16px;
     border: 1px solid rgb(134, 133, 133);
     transition: 0.4s ease-in-out; 
-    transition-delay: 50ms;
     letter-spacing: 1px;
     background-image: url(./backgrounds/cardbg.jpg);
     width: 100%;
