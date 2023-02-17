@@ -55,6 +55,41 @@ h1:hover {
 
 /*---------------------------------------------------*/
 
+.info {
+    background-image: url(./backgrounds/cardbg.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 1px solid rgb(134, 133, 133);
+}
+
+.main-block {
+    cursor: default;
+    color: rgb(66, 66, 66);
+    max-width: 44%;
+}
+
+.text {
+    font-family: Unbounded;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 45px;
+    font-weight: 800;
+}
+
+div>img {
+    padding: 50px;
+    padding-top: 100px;
+    max-width: 400px;
+    max-height: 650px;
+}
+
+/*---------------------------------------------------*/
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -189,6 +224,27 @@ li>img {
         letter-spacing: 5px;
     }
 
+    .info{
+        width: 99%;
+        margin-bottom: 100px;
+    }
+
+    div>img{
+        max-width: 300px;
+        max-height: 550px;
+    }
+
+    .text {
+        text-align: justify;
+        padding: 50px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 40px;
+        font-weight: 800;
+        max-width: 300px;
+        max-height: 550px;
+    }
+    
     h2 {
         position: absolute;
         top: 35%;
@@ -262,4 +318,3 @@ li>img {
         font-size: 14px;
     }
 }
-
