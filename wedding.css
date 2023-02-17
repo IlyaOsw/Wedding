@@ -225,21 +225,22 @@ li>img {
     }
 
     .info{
-        width: 99%;
+        width: 98%;
         margin-bottom: 100px;
     }
 
     div>img{
+        margin-left: 3px;
         max-width: 300px;
         max-height: 550px;
     }
 
     .text {
-        text-align: justify;
+        text-align: start;
         padding: 50px;
         font-size: 18px;
         letter-spacing: 0px;
-        line-height: 40px;
+        line-height: 38px;
         font-weight: 800;
         max-width: 300px;
         max-height: 550px;
